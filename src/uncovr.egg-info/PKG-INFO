@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: uncovr
+Version: 0.0.1
+Summary: A placeholder for the uncovr package
+Author-email: Sidharth Macherla <sidharth.macherla@foyi.co.nz>
+Project-URL: Homepage, https://www.foyi.co.nz/posts/documentation/documentationuncovr/
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a placeholder for uncovr description 

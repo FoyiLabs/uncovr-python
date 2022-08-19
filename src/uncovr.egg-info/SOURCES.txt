@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/uncovr/__init__.py
+src/uncovr.egg-info/PKG-INFO
+src/uncovr.egg-info/SOURCES.txt
+src/uncovr.egg-info/dependency_links.txt
+src/uncovr.egg-info/top_level.txt
