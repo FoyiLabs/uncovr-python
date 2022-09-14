@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uncovr"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Sidharth Macherla", email="sidharth.macherla@foyi.co.nz" },
 ]
