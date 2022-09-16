@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: uncovr
+Version: 0.1.0
+Summary: A model audit software
+Author-email: Sidharth Macherla <sidharth.macherla@foyi.co.nz>
+Project-URL: Homepage, https://www.foyi.co.nz/posts/documentation/documentationuncovr/
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package aims to uncover the hidden fallacies in the AI/ML models. It is under constant development at both the philosophical level as well as the algorithmic level. While this package is open source, the mathematical concepts underpinning the core algorithm are not. To be more precise, this package calls an API managed by FOYI and therefore **requires a free API subscription**. Please visit our official documentation at https://www.foyi.co.nz/posts/documentation/documentationuncovr/. For updates, please follow us at https://www.linkedin.com/company/foyi/

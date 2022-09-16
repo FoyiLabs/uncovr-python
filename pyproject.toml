@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uncovr"
+version = "0.1.0"
+authors = [
+  { name="Sidharth Macherla", email="sidharth.macherla@foyi.co.nz" },
+]
+description = "A model audit software"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers=[
+        "Development Status :: 1 - Planning",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",        
+        "Programming Language :: Python :: 3.6",
+        "Topic :: Software Development :: Libraries :: Python Modules"      
+    ]
+
+[project.urls]
+"Homepage" = "https://www.foyi.co.nz/posts/documentation/documentationuncovr/"
