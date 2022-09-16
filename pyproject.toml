@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uncovr"
-version = "0.0.3"
+version = "0.1.0"
 authors = [
   { name="Sidharth Macherla", email="sidharth.macherla@foyi.co.nz" },
 ]
-description = "A placeholder for the uncovr package"
+description = "A model audit software"
 readme = "README.md"
 requires-python = ">=3.6"
 classifiers=[

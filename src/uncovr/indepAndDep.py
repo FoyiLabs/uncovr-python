@@ -5,7 +5,7 @@
 #&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 from numpy import random
 from json import dumps
-from helperFunctions import alphaNumericSeq
+from uncovr.helperFunctions import alphaNumericSeq
 
 #&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 # Function
@@ -24,22 +24,19 @@ def indepAndDep(numOfObs, numOfVars):
         #Upper and lower bound ranges are currently hardcoded. This could be given out as parameter in later versions
         upperBound = random.uniform(0.01, 100)
         lowerBound = -1*upperBound   
-        allIvDict[iv]['noOfpoints'] = numOfObs
-        allIvDict[iv]['upperBound'] = upperBound
-        allIvDict[iv]['upperBound'] = lowerBound
-        allIvDict[iv]['dataType'] = 'continuous'
+        allIvDict[iv]["noOfpoints"] = numOfObs
+        allIvDict[iv]["upperBound"] = upperBound
+        allIvDict[iv]["lowerBound"] = lowerBound
+        allIvDict[iv]["dataType"] = "continuous"
 
     #Build dependent variable attributes. Currently there is only one.
     dvDict = {} 
-    dvDict['dataType'] = 'continuous'
+    dvDict["dataType"] = "continuous"
 
     #Build a combo dictionary of dependent and independent variables
     comboDict = {}
-    comboDict['iv'] = allIvDict
-    comboDict['dv'] = dvDict
+    comboDict["iv"] = allIvDict
+    comboDict["dv"] = dvDict 
 
-    #Convert the dictionary into Json for uncovr api
-    outJson = dumps(comboDict)
-
-    return outJson
+    return comboDict
 
